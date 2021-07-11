@@ -1,9 +1,9 @@
 import React from "react";
 import { App } from "../src/App";
-import { mount } from "enzyme";
+import { shallow } from "enzyme";
 
 describe("App.tsx", () => {
   test("Mounts", () => {
-    mount(<App />);
+    shallow(<App />);
   });
 });
